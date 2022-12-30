@@ -56,7 +56,7 @@ run().catch(console.log);
 
 
 app.get('/', async (req, res) => {
-    res.send('doctors portal server is running');
+    res.send('doctors portal server is ot running');
 })
 
 app.listen(port, () => console.log(`Doctors porfthtal running on ${port}`))
