@@ -59,4 +59,4 @@ app.get('/', async (req, res) => {
     res.send('doctors portal server is running');
 })
 
-app.listen(port, () => console.log(`Doctors portal running on ${port}`))
+app.listen(port, () => console.log(`Doctors porfthtal running on ${port}`))
